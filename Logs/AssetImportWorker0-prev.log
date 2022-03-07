@@ -1,0 +1,553 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.11f1 (e50cafbb4399) revision 15010991'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 32705 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/bvotano/Workspace/AGA307-Programming-In-Class-Feb22
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51442
+Successfully changed project path to: C:/Users/bvotano/Workspace/AGA307-Programming-In-Class-Feb22
+C:/Users/bvotano/Workspace/AGA307-Programming-In-Class-Feb22
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 21.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.11f1 (e50cafbb4399)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bvotano/Workspace/AGA307-Programming-In-Class-Feb22/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006611 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.480 seconds
+Domain Reload Profiling:
+	ReloadAssembly (480ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (349ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (20ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (590ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (416ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (132.9 KB). Loaded Objects now: 1519.
+Memory consumption went from 61.0 MB to 60.9 MB.
+Total: 2.369600 ms (FindLiveObjects: 0.126100 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.048800 ms  DeleteObjects: 0.151200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 937656.180321 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs
+  artifactKey: Guid(1bace09ab9333e34b8793ac1cbf248ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs using Guid(1bace09ab9333e34b8793ac1cbf248ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac07b82d7390fb4b5516b8cf1f2ea18') in 0.003541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.119404 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs
+  artifactKey: Guid(1bace09ab9333e34b8793ac1cbf248ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs using Guid(1bace09ab9333e34b8793ac1cbf248ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074bca9bb0e8abfa5b240947f7bd860c') in 0.001113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.090873 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/fire cup.controller
+  artifactKey: Guid(8f016a1ab19886044af1a45d215398ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/fire cup.controller using Guid(8f016a1ab19886044af1a45d215398ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60da380a687d5981e84283fcd7db78a7') in 0.036140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.189700 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/textures
+  artifactKey: Guid(60c4a676903d88a44ba53612f0eaa01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/textures using Guid(60c4a676903d88a44ba53612f0eaa01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b8fdcf342e9695c1be12ca17ecdcfb') in 0.001513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.891844 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/textures/blue dungeonTexture.png
+  artifactKey: Guid(3ef4abbc10465f24487f7d0b21426aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/textures/blue dungeonTexture.png using Guid(3ef4abbc10465f24487f7d0b21426aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979396c824f8af4a24e827f5dbaf96a6') in 0.092943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.820840 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Textures
+  artifactKey: Guid(60c4a676903d88a44ba53612f0eaa01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Textures using Guid(60c4a676903d88a44ba53612f0eaa01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab8a74b4d1b4702e0d3272a9e40a160') in 0.001609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.147350 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Textures/fire.psd
+  artifactKey: Guid(59714d9622665274a8dc4c07b9b8d0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Textures/fire.psd using Guid(59714d9622665274a8dc4c07b9b8d0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc6dae3d00fa9a0bf9a334ad52f7eca') in 0.012301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.762655 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/Blue Dungeon.prefab
+  artifactKey: Guid(cd32442e201a7a145a8f67aa484acd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/Blue Dungeon.prefab using Guid(cd32442e201a7a145a8f67aa484acd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c291b53dc0deac05e75466116788142') in 0.095215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.579799 seconds.
+  path: Assets/Triple Dungeon Pack
+  artifactKey: Guid(2eba96cf3f724cc4aba0c095f8d2bbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack using Guid(2eba96cf3f724cc4aba0c095f8d2bbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3870f7c273a25d084e22682c914ba94f') in 0.001598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.882388 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/fire_cup_1 (2).prefab
+  artifactKey: Guid(67caafe28606d6a44b17be7be9fc6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/fire_cup_1 (2).prefab using Guid(67caafe28606d6a44b17be7be9fc6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4c3786b46469c46a4e1ec0eeefada9') in 0.017311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002608 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/particles/fire particle blue.prefab
+  artifactKey: Guid(45a0f0d35d74a804189dd88b632faa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/particles/fire particle blue.prefab using Guid(45a0f0d35d74a804189dd88b632faa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3de6de0003ade0c5b3024b33f733d6b') in 0.009917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008705 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/wall_base2.prefab
+  artifactKey: Guid(efe555334b6acd4429f41f455e9dce38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/wall_base2.prefab using Guid(efe555334b6acd4429f41f455e9dce38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453d3699285de0ec381bb2c53f67ad54') in 0.009236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001930 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_12.prefab
+  artifactKey: Guid(bd6f5d665b09d444c9509853346c1237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_12.prefab using Guid(bd6f5d665b09d444c9509853346c1237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e656a3561352481219a8fcdf2f0191') in 0.009658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002281 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/vase_1.prefab
+  artifactKey: Guid(2585150f9874d874a8a49784f3b91b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/vase_1.prefab using Guid(2585150f9874d874a8a49784f3b91b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dee12f7c03e8746cbea7d42d8e25907') in 0.012756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002288 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-2_corner.prefab
+  artifactKey: Guid(09a02935dd575a4448deb91ce0185c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-2_corner.prefab using Guid(09a02935dd575a4448deb91ce0185c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a997df158a093b2e98884e3b0cf0e57d') in 0.012381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001185 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Materials
+  artifactKey: Guid(bfa3e93151117a24490a8c91ad6a7f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Materials using Guid(bfa3e93151117a24490a8c91ad6a7f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf80b1cbedeae978163a6610c0c5f5e') in 0.001124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001775 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_10.prefab
+  artifactKey: Guid(535663757d8855d4583cc51b3150834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_10.prefab using Guid(535663757d8855d4583cc51b3150834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861803a98de63b42a6cf1a4a81f27106') in 0.009430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002007 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/wall_base3.prefab
+  artifactKey: Guid(4828eb97da272fb45b2babf9c57fe11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/wall_base3.prefab using Guid(4828eb97da272fb45b2babf9c57fe11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ba3fe4ad2191409d1719132eaaaa04') in 0.011357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001855 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/vase_3.prefab
+  artifactKey: Guid(1f7bd7a0d72743b4181c28af4b82c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/vase_3.prefab using Guid(1f7bd7a0d72743b4181c28af4b82c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759a3f12d8e8ef7e25e7fae15141eb18') in 0.013336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001762 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_8.prefab
+  artifactKey: Guid(469b046fd92c69c4fb1f98c2eeff2b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_8.prefab using Guid(469b046fd92c69c4fb1f98c2eeff2b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175ca74a28c487e97136d57b740acbe7') in 0.013252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001847 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/candle_2.prefab
+  artifactKey: Guid(c0d0f6b7b592dc14aa59382b630fe552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/candle_2.prefab using Guid(c0d0f6b7b592dc14aa59382b630fe552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f45056092636538e23dc0075c5a5fe') in 0.011203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001242 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls
+  artifactKey: Guid(7daa1368d304b4940a4c6d659c2f2375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls using Guid(7daa1368d304b4940a4c6d659c2f2375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12761f2884d068c4016d42eedacea2f') in 0.001338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001777 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/wall2.prefab
+  artifactKey: Guid(a578ee0f8198a4d43909700c19cbf82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/wall2.prefab using Guid(a578ee0f8198a4d43909700c19cbf82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577deec64ad8aa49f1894088d1202db4') in 0.009943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon
+  artifactKey: Guid(80fc826ada972ef4e94edcd9171209c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon using Guid(80fc826ada972ef4e94edcd9171209c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b8c6289c334b3ab2471e12de3d53f6') in 0.000876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001598 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_1.prefab
+  artifactKey: Guid(94cdfadae0c50374cbc28325b389c1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_1.prefab using Guid(94cdfadae0c50374cbc28325b389c1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0223ab627a9e650f6b1e068ce92b215') in 0.008582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001783 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-2.prefab
+  artifactKey: Guid(03522bb5dd98b2b49b21ea6c9516b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-2.prefab using Guid(03522bb5dd98b2b49b21ea6c9516b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7ae871bce92850ce2164e413ff975a') in 0.008815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001592 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/wall_base1.prefab
+  artifactKey: Guid(efbd5efcba36b344abbcbc09b00fb495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/wall_base1.prefab using Guid(efbd5efcba36b344abbcbc09b00fb495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccee9dbc61bba11ed9b59738b214d88') in 0.008890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001933 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/candle_1.prefab
+  artifactKey: Guid(c996903a78aeba24cb9906c138cd7c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/candle_1.prefab using Guid(c996903a78aeba24cb9906c138cd7c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9c17944bb6a7deeaa6e21367a3d0a6') in 0.010209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001614 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_15.prefab
+  artifactKey: Guid(88871cb3fdd18c84998c33a8d9408d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_15.prefab using Guid(88871cb3fdd18c84998c33a8d9408d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243fed0cfc060ace8d4ded03a6b824a7') in 0.008643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001750 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/candle_2.prefab
+  artifactKey: Guid(40fd410ede896cb4d8810f03c77f3dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/candle_2.prefab using Guid(40fd410ede896cb4d8810f03c77f3dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c579f4eb265553e667d29b1f3743d6bb') in 0.009930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001628 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/fire_cup_base.prefab
+  artifactKey: Guid(9be0fc43ef0dab943b5c07e2c9725047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/fire_cup_base.prefab using Guid(9be0fc43ef0dab943b5c07e2c9725047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5842e4e1be52da6dd7a24d171f9053ea') in 0.011078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001489 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/table.prefab
+  artifactKey: Guid(4507003633afb764dbe083265373544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/table.prefab using Guid(4507003633afb764dbe083265373544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2300b2bd98501e706e7c980e76c551e') in 0.009153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001978 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/chest_base.prefab
+  artifactKey: Guid(09c12bbc62e3ed148859f20022ea163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/chest_base.prefab using Guid(09c12bbc62e3ed148859f20022ea163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc071cc0d769a19f30f753785f9c9ca0') in 0.009367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003198 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_11.prefab
+  artifactKey: Guid(ac4a1a6f99e8e4b4f95b075c1bad951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_11.prefab using Guid(ac4a1a6f99e8e4b4f95b075c1bad951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52764ad166dfbdbacfe30af299cdc19e') in 0.008606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001584 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_7.prefab
+  artifactKey: Guid(74f3126c201736a469c0797cf65444b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_7.prefab using Guid(74f3126c201736a469c0797cf65444b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2729ca938e71e8fc587b8c0df54063d') in 0.008581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004869 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/pylon_1.prefab
+  artifactKey: Guid(dd83a30ea4459a8449330dd3728186ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/pylon_1.prefab using Guid(dd83a30ea4459a8449330dd3728186ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b6020bf7721f0cd7d370cefc6e810a') in 0.008822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001824 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-1-3.prefab
+  artifactKey: Guid(15c4fcafa28bf2740b9e786073e133a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-1-3.prefab using Guid(15c4fcafa28bf2740b9e786073e133a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a8e02f410bf9be89b4aefbb2e77db1') in 0.008643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001891 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/fire_cup_base.prefab
+  artifactKey: Guid(42cb403d8c1fc544c99a63edfa93463e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/fire_cup_base.prefab using Guid(42cb403d8c1fc544c99a63edfa93463e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1443f9b12f336ec334c790ac457c334') in 0.008625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001616 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-1-1.prefab
+  artifactKey: Guid(958c539e6f5b3da4e988c157ff999d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-1-1.prefab using Guid(958c539e6f5b3da4e988c157ff999d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2dd435686fad23d54b228e7d455cc2') in 0.008907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001521 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_13.prefab
+  artifactKey: Guid(429fe0ad9518a524bb17efc46b496305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_13.prefab using Guid(429fe0ad9518a524bb17efc46b496305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81359aebf13db00c2d25a0b85a8b0821') in 0.009255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001711 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/pylon-corner.prefab
+  artifactKey: Guid(ec116df1728c8a543bd621c12aa237d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/pylon-corner.prefab using Guid(ec116df1728c8a543bd621c12aa237d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12f12d818a5bf656be8d83259d489cc') in 0.008482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000980 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations
+  artifactKey: Guid(628527a477dca724a9e870e5d3ad3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations using Guid(628527a477dca724a9e870e5d3ad3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20490cf9801a93a3132247b3ca2194f0') in 0.001053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001840 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/pylon_1 (7).prefab
+  artifactKey: Guid(cf384f0d2ce565b4eaf074a63f64ac39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/pylon_1 (7).prefab using Guid(cf384f0d2ce565b4eaf074a63f64ac39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7299c131da75e91ef2f91ca0855e853f') in 0.011485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs
+  artifactKey: Guid(6cc19ac41ca5dfb429cba38aef2a90f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs using Guid(6cc19ac41ca5dfb429cba38aef2a90f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e7c4fc6f6bfccfc8b0e6d3155f8bc8') in 0.000905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002987 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_16.prefab
+  artifactKey: Guid(298d627fc08ec2844865e8b0fb2b70f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_16.prefab using Guid(298d627fc08ec2844865e8b0fb2b70f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94de27345e6a54796c4f241672f2fa0c') in 0.009048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001311 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Materials/fire.mat
+  artifactKey: Guid(ffadee3ee7a09854eb9cc65208453cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Materials/fire.mat using Guid(ffadee3ee7a09854eb9cc65208453cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47b47f06a27a0f92e74cfdacd34667f') in 0.078405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001736 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/pylon_2.prefab
+  artifactKey: Guid(953e0f2bf52ed6b44a5e2a48d3ed4d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/pylon_2.prefab using Guid(953e0f2bf52ed6b44a5e2a48d3ed4d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07342aed2062fd184854024bd66853b4') in 0.009253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001852 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-1-2.prefab
+  artifactKey: Guid(71c1869005d3aa844b533950f28e611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground-1-2.prefab using Guid(71c1869005d3aa844b533950f28e611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007e00be9c294224073079a2f3aa3790') in 0.009619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001800 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_3.prefab
+  artifactKey: Guid(57160797b6580ef4d82bf06829b51f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_3.prefab using Guid(57160797b6580ef4d82bf06829b51f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445beba9604bfdadde7eb54f676f8fa6') in 0.009090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001375 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/idleFireCup.anim
+  artifactKey: Guid(e225475b17899734f89d7ed2d9863e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/idleFireCup.anim using Guid(e225475b17899734f89d7ed2d9863e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05114247c3dfb7ffc30916c3cd1e7937') in 0.002731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001597 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_9.prefab
+  artifactKey: Guid(3ebb497a37e800f44b597338c52813bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_9.prefab using Guid(3ebb497a37e800f44b597338c52813bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3150e1bd7899411464c86bbb6a58e16') in 0.009158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002826 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_6.prefab
+  artifactKey: Guid(80ab2159d2bdbc54e816283f52b4ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_6.prefab using Guid(80ab2159d2bdbc54e816283f52b4ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa820d9f990d0c91be1ab638bd28c206') in 0.008624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001569 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/stairs_2.prefab
+  artifactKey: Guid(a70d0f9c99a36034cb19fed7f2ad5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/stairs_2.prefab using Guid(a70d0f9c99a36034cb19fed7f2ad5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2f42b773fcdc030497f6a1b60c1687') in 0.008604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001427 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Materials/blue dungeon.mat
+  artifactKey: Guid(750eba4470988264692cdc72d2326ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Materials/blue dungeon.mat using Guid(750eba4470988264692cdc72d2326ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e93e340d7f3b2fe1f96bc907574249') in 0.009071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001571 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_5.prefab
+  artifactKey: Guid(0852dbaca3364ee45822445ddce3beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_5.prefab using Guid(0852dbaca3364ee45822445ddce3beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261d3a7b9a17c63602a7fd2e1e7d7686') in 0.009276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001607 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/vase_2.prefab
+  artifactKey: Guid(d5204fad194f4c14fbc275a63ff2c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/vase_2.prefab using Guid(d5204fad194f4c14fbc275a63ff2c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8992eaad49042dd9a459742134b0292b') in 0.008783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008046 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/candle_1.prefab
+  artifactKey: Guid(63fe838a00d2c564ab656774a6831ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/candle_1.prefab using Guid(63fe838a00d2c564ab656774a6831ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b3a65f6bc5666a3b1964b113780beb') in 0.008860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000885 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/particles
+  artifactKey: Guid(d4569c34ab136a84e9007b8b8f0da9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/particles using Guid(d4569c34ab136a84e9007b8b8f0da9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c3df467551744c7d7ffcf5929bc2c9') in 0.000916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials
+  artifactKey: Guid(cf3c7e0f9fb530a4e844d97741572824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials using Guid(cf3c7e0f9fb530a4e844d97741572824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbb0fa6bfa35b1f946d191ddcb34f20') in 0.000881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001443 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_4.prefab
+  artifactKey: Guid(bb21e2bab61fc5f4fa6b57ec41ae68a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_4.prefab using Guid(bb21e2bab61fc5f4fa6b57ec41ae68a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e695bc7b65434fc1dae5c2670975b1e9') in 0.008847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001527 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_2.prefab
+  artifactKey: Guid(078375d89d068ff43b690e53ac911589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/ground_2.prefab using Guid(078375d89d068ff43b690e53ac911589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ff0a3a849dc2205e359a3eedf8b841') in 0.009314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001470 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/arch.prefab
+  artifactKey: Guid(a47598e6e09d5ef449907751bebf40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/walls/arch.prefab using Guid(a47598e6e09d5ef449907751bebf40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc2f648e919e235489253ad22805153') in 0.009053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001748 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/particles/fire particle candle.prefab
+  artifactKey: Guid(9f4887cc82d823b4ba155e6467a35e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/particles/fire particle candle.prefab using Guid(9f4887cc82d823b4ba155e6467a35e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280ec83e77329904624af827ac24dc46') in 0.007447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002397 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/fire_cup_1.prefab
+  artifactKey: Guid(994639c8f88d6a1448fb2ac40fe22ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/decorations/fire_cup_1.prefab using Guid(994639c8f88d6a1448fb2ac40fe22ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91e597cf66939e94587734c7347b2a2') in 0.008844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004243 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/stairs_1.prefab
+  artifactKey: Guid(29748466972c61f4e8a122c9c839603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/ground_stairs/stairs_1.prefab using Guid(29748466972c61f4e8a122c9c839603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f0423952e5fad1480331b313231a4e') in 0.008935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002893 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/table.prefab
+  artifactKey: Guid(1e6ac13f467c9bd4e81c7570f5427429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Prefabs/specials/table.prefab using Guid(1e6ac13f467c9bd4e81c7570f5427429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd47c4b36497272349ed890046cc02a') in 0.010447 seconds 
