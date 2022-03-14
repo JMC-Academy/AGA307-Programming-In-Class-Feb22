@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : GameBehaviour
 {
     public EnemyType myType;
     public int myHealth;
@@ -17,7 +17,6 @@ public class Enemy : MonoBehaviour
     Transform startPos;             //Needed for repeat patrol movement
     Transform endPos;               //Needed for repeat patrol movement
     public Transform moveToPos;
-    EnemyManager _EM;
 
     void Start()
     {
@@ -26,9 +25,14 @@ public class Enemy : MonoBehaviour
         StartCoroutine(Move());
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.H))
+            Hit(20);
+    }
+    
     void SetupAI()
     {
-        _EM = FindObjectOfType<EnemyManager>();
         startPos = transform;
         endPos = _EM.GetRandomSpawnPoint();
         moveToPos = endPos;
@@ -87,5 +91,18 @@ public class Enemy : MonoBehaviour
 
         yield return new WaitForSeconds(1);
         StartCoroutine(Move());
+    }
+
+    void Hit(int _damage)
+    {
+        myHealth -= _damage;
+        if (myHealth <= 0)
+        {
+            GameEvents.ReportEnemyDied(this);
+        }
+        else
+        {
+            GameEvents.ReportEnemyHit(this);
+        }
     }
 }
