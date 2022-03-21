@@ -12,12 +12,48 @@ public class GameManager : GameBehaviour<GameManager>
     public Difficulty difficulty;
     public int score;
     int scoreMultiplyer = 1;
+    bool isPaused = false;
 
     void Start()
     {
-        gameState = GameState.Title;
+        DontDestroyOnLoad(gameObject);
+    }
 
-        switch(difficulty)
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            TogglePause();
+    }
+
+    public void TogglePause()
+    {
+        //if (gameState != GameState.Playing || gameState != GameState.Paused)
+        //    return;
+
+        isPaused = !isPaused;
+        if (isPaused)
+        {
+            ChangeGameState(GameState.Paused);
+            Time.timeScale = 0;
+        }
+        else
+        {
+            ChangeGameState(GameState.Playing);
+            Time.timeScale = 1;
+        }
+    }
+
+    public void ChangeGameState(GameState _gameState)
+    {
+        gameState = _gameState;
+        GameEvents.ReportGameStateChange(gameState);
+    }
+
+    public void ChangeDifficulty(int _difficulty)
+    {
+        difficulty = (Difficulty)_difficulty;
+
+        switch (difficulty)
         {
             case Difficulty.Easy:
                 scoreMultiplyer = 1;
@@ -34,30 +70,10 @@ public class GameManager : GameBehaviour<GameManager>
         }
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            gameState = GameState.Playing;
-            GameEvents.ReportGameStateChange(gameState);
-        }
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            gameState = GameState.Paused;
-            GameEvents.ReportGameStateChange(gameState);
-        }
-
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            gameState = GameState.GameOver;
-            GameEvents.ReportGameStateChange(gameState);
-        }
-    }
-
     public void AddScore(int _value)
     {
         score += _value * scoreMultiplyer;
+        GameEvents.ReportScoreChange(score);
     }
 
     void OnEnemyHit(Enemy _enemy)

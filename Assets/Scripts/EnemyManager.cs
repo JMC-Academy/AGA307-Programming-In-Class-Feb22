@@ -12,6 +12,11 @@ public class EnemyManager : GameBehaviour<EnemyManager>
 
     public List<GameObject> enemies;
 
+    private void Start()
+    {
+        StartCoroutine(SpawnEnemyDelayed());
+    }
+
     void Update()
     {
         //if (Input.GetKeyDown(KeyCode.K))

@@ -7,6 +7,7 @@ public static class GameEvents
 
     public static event Action<GameState> OnGameStateChange = null;
     public static event Action<Difficulty> OnDifficultyChange = null;
+    public static event Action<int> OnScoreChange = null;
 
     public static void ReportEnemyHit(Enemy _enemy)
     {
@@ -27,4 +28,10 @@ public static class GameEvents
     {
         OnDifficultyChange?.Invoke(_difficulty);
     }
+
+    public static void ReportScoreChange(int _score)
+    {
+        OnScoreChange?.Invoke(_score);
+    }
+
 }
