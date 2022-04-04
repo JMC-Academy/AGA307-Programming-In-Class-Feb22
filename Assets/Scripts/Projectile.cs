@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public int damage = 10;
     void Start()
     {
         Destroy(gameObject, 3);
@@ -13,8 +14,11 @@ public class Projectile : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Target"))
         {
-            collision.gameObject.GetComponent<Renderer>().material.color = Color.red;
-            Destroy(collision.gameObject, 1);
+            collision.gameObject.GetComponent<Target>().Hit();
+        }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            collision.gameObject.GetComponent<Enemy>().Hit(damage);
         }
         Destroy(gameObject);
     }

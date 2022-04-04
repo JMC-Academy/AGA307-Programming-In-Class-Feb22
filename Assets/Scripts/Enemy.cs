@@ -18,8 +18,12 @@ public class Enemy : GameBehaviour
     Transform endPos;               //Needed for repeat patrol movement
     public Transform moveToPos;
 
+    Animator anim;
+    bool isDead = false;
+
     void Start()
     {
+        anim = GetComponent<Animator>();
         SetupEnemy();
         SetupAI();
         StartCoroutine(Move());
@@ -27,8 +31,8 @@ public class Enemy : GameBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
-            Hit(20);
+        //if (Input.GetKeyDown(KeyCode.H))
+        //    Hit(20);
     }
     
     void SetupAI()
@@ -93,16 +97,36 @@ public class Enemy : GameBehaviour
         StartCoroutine(Move());
     }
 
-    void Hit(int _damage)
+    public void Hit(int _damage)
     {
         myHealth -= _damage;
         if (myHealth <= 0)
         {
-            GameEvents.ReportEnemyDied(this);
+            if (!isDead)
+            {
+                isDead = true;
+                StopAllCoroutines();
+                anim.SetTrigger("Die" + RandomAnimation());
+                GameEvents.ReportEnemyDied(this);
+            }
         }
         else
         {
+            anim.SetTrigger("Hit" + RandomAnimation());
             GameEvents.ReportEnemyHit(this);
         }
+    }
+
+    void Attack()
+    {
+        if (isDead)
+            return;
+
+        anim.SetTrigger("Attack" + RandomAnimation());
+    }
+
+    int RandomAnimation()
+    {
+        return Random.Range(1, 4);
     }
 }

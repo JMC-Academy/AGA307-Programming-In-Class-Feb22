@@ -94,7 +94,7 @@ public class EnemyManager : GameBehaviour<EnemyManager>
         if (enemies.Count == 0)
             return;
 
-        Destroy(_enemy);
+        Destroy(_enemy, 2);
         enemies.Remove(_enemy);
     }
 
